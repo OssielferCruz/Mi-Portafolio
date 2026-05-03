@@ -164,7 +164,11 @@ ul { list-style: none; }
   justify-content: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #FFF8F0 0%, #F3EEFF 30%, #E8F6FF 60%, #FFF0E8 100%);
+  background: 
+    radial-gradient(circle at 15% 50%, rgba(124, 218, 243, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 85% 30%, rgba(255, 140, 168, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 50% 80%, rgba(255, 214, 0, 0.15) 0%, transparent 50%),
+    linear-gradient(135deg, #FDFBF7 0%, #F4F1EE 100%);
   padding: 120px 5% 80px;
 }
 
@@ -509,6 +513,15 @@ ul { list-style: none; }
 .luly-food-grid .icon-cell img {
   width: 100%;
   height: 100%;
+  animation: lulyBob 3s ease-in-out infinite;
+}
+
+.luly-food-grid .icon-cell:nth-child(even) img {
+  animation-delay: 0.5s;
+}
+
+.luly-food-grid .icon-cell:nth-child(3n) img {
+  animation-delay: 1s;
 }
 
 
