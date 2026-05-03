@@ -165,9 +165,9 @@ ul { list-style: none; }
   position: relative;
   overflow: hidden;
   background: 
-    radial-gradient(circle at 20% 0%, rgba(243, 156, 18, 0.04) 0%, transparent 60%),
-    radial-gradient(circle at 80% 100%, rgba(211, 84, 0, 0.03) 0%, transparent 60%),
-    linear-gradient(180deg, var(--bg-cream) 0%, #F8F5F0 100%);
+    radial-gradient(circle at 10% 20%, rgba(124, 218, 243, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(255, 140, 168, 0.1) 0%, transparent 40%),
+    linear-gradient(160deg, #1A1025 0%, #0F0816 100%);
   padding: 120px 5% 80px;
 }
 
@@ -194,7 +194,7 @@ ul { list-style: none; }
 .hero h1 {
   font-family: var(--font-title);
   font-size: clamp(3rem, 8vw, 6.5rem);
-  color: var(--purple);
+  color: var(--white);
   line-height: 1.05;
   margin-bottom: 16px;
 }
@@ -208,7 +208,7 @@ ul { list-style: none; }
 
 .hero-subtitle {
   font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-  color: var(--gray);
+  color: #E2D9EE;
   font-weight: 300;
   margin-bottom: 40px;
   max-width: 600px;
@@ -252,14 +252,14 @@ ul { list-style: none; }
 }
 
 .hero-float img { width: 100%; height: 100%; object-fit: contain; }
-.hero-float:nth-child(1) { width: 100px; top: 10%; left: 5%; animation-delay: 0s; }
-.hero-float:nth-child(2) { width: 80px; top: 15%; right: 8%; animation-delay: 1s; }
-.hero-float:nth-child(3) { width: 120px; bottom: 20%; left: 8%; animation-delay: 2s; }
-.hero-float:nth-child(4) { width: 90px; bottom: 15%; right: 5%; animation-delay: 0.5s; }
-.hero-float:nth-child(5) { width: 70px; top: 40%; left: 2%; animation-delay: 1.5s; }
-.hero-float:nth-child(6) { width: 110px; top: 35%; right: 3%; animation-delay: 2.5s; }
-.hero-float:nth-child(7) { width: 60px; bottom: 35%; left: 15%; animation-delay: 3s; }
-.hero-float:nth-child(8) { width: 75px; bottom: 40%; right: 12%; animation-delay: 0.8s; }
+.hero-float:nth-child(1) { width: 95px; top: 12%; left: 6%; animation-delay: 0s; }
+.hero-float:nth-child(2) { width: 85px; top: 18%; right: 10%; animation-delay: 1.2s; }
+.hero-float:nth-child(3) { width: 110px; bottom: 22%; left: 9%; animation-delay: 2s; }
+.hero-float:nth-child(4) { width: 80px; bottom: 18%; right: 7%; animation-delay: 0.5s; }
+.hero-float:nth-child(5) { width: 90px; top: 45%; left: 3%; animation-delay: 1.5s; }
+.hero-float:nth-child(6) { width: 100px; top: 40%; right: 4%; animation-delay: 2.5s; }
+.hero-float:nth-child(7) { width: 65px; bottom: 38%; left: 18%; animation-delay: 3s; }
+.hero-float:nth-child(8) { width: 130px; bottom: 42%; right: 15%; animation-delay: 0.8s; }
 
 @keyframes heroFloat {
   0%, 100% { transform: translateY(0) rotate(0deg); }
