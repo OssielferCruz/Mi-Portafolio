@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const secs = document.querySelectorAll('section[id]');
   const navAs = document.querySelectorAll('.nav-links a');
   const sectionColors = {
-    hero: '#7CDAF3',
+    inicio: '#7CDAF3',
     lubricantes: '#D35400',
     qbit: '#7CDAF3',
     luly: '#812D22',
