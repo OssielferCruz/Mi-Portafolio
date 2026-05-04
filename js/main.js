@@ -5,26 +5,26 @@
 /* --- Image Data --- */
 const DATA = {
   aceites: [
-    { src: 'Proyecto Lubricantes/Aceites/Aceite PUMA 2T.svg', name: 'Aceite PUMA 2T' },
-    { src: 'Proyecto Lubricantes/Aceites/Bajaj 1.2 litros 4T.svg', name: 'Bajaj 1.2L 4T' },
-    { src: 'Proyecto Lubricantes/Aceites/Bajaj 4T 1 LITRO.svg', name: 'Bajaj 4T 1L' },
-    { src: 'Proyecto Lubricantes/Aceites/Havoline 2T Mezcla.svg', name: 'Havoline 2T' },
-    { src: 'Proyecto Lubricantes/Aceites/Havoline 4T Of.svg', name: 'Havoline 4T' },
-    { src: 'Proyecto Lubricantes/Aceites/Havoline Azul 4T.svg', name: 'Havoline Azul 4T' },
-    { src: 'Proyecto Lubricantes/Aceites/Hyundai 4T Aceite.svg', name: 'Hyundai 4T' },
-    { src: 'Proyecto Lubricantes/Aceites/MOTUL 7100.svg', name: 'MOTUL 7100' },
-    { src: 'Proyecto Lubricantes/Aceites/Motul 5100.svg', name: 'Motul 5100' },
-    { src: 'Proyecto Lubricantes/Aceites/Shell 4T.svg', name: 'Shell 4T' },
-    { src: 'Proyecto Lubricantes/Aceites/Yamalube 4T.svg', name: 'Yamalube 4T' }
+    { src: 'Proyecto Lubricantes/Aceites/Aceite PUMA 2T.webp', name: 'Aceite PUMA 2T' },
+    { src: 'Proyecto Lubricantes/Aceites/Bajaj 1.2 litros 4T.webp', name: 'Bajaj 1.2L 4T' },
+    { src: 'Proyecto Lubricantes/Aceites/Bajaj 4T 1 LITRO.webp', name: 'Bajaj 4T 1L' },
+    { src: 'Proyecto Lubricantes/Aceites/Havoline 2T Mezcla.webp', name: 'Havoline 2T' },
+    { src: 'Proyecto Lubricantes/Aceites/Havoline 4T Of.webp', name: 'Havoline 4T' },
+    { src: 'Proyecto Lubricantes/Aceites/Havoline Azul 4T.webp', name: 'Havoline Azul 4T' },
+    { src: 'Proyecto Lubricantes/Aceites/Hyundai 4T Aceite.webp', name: 'Hyundai 4T' },
+    { src: 'Proyecto Lubricantes/Aceites/MOTUL 7100.webp', name: 'MOTUL 7100' },
+    { src: 'Proyecto Lubricantes/Aceites/Motul 5100.webp', name: 'Motul 5100' },
+    { src: 'Proyecto Lubricantes/Aceites/Shell 4T.webp', name: 'Shell 4T' },
+    { src: 'Proyecto Lubricantes/Aceites/Yamalube 4T.webp', name: 'Yamalube 4T' }
   ],
   flamingo: [
-    { src: 'Proyecto Lubricantes/Flamingo/Desengrasante.svg', name: 'Desengrasante' },
-    { src: 'Proyecto Lubricantes/Flamingo/Desinfectante de Casco.svg', name: 'Desinfectante de Casco' },
-    { src: 'Proyecto Lubricantes/Flamingo/Diamond Pasta Flamingo.svg', name: 'Diamond Pasta' },
-    { src: 'Proyecto Lubricantes/Flamingo/Limpia Neumaticos.svg', name: 'Limpia Neumáticos' },
-    { src: 'Proyecto Lubricantes/Flamingo/Limpiador botellita spray.svg', name: 'Limpiador Spray' },
-    { src: 'Proyecto Lubricantes/Flamingo/Lubricante para Cadenas.svg', name: 'Lubricante Cadenas' },
-    { src: 'Proyecto Lubricantes/Flamingo/Ultra Shine 11.svg', name: 'Ultra Shine' }
+    { src: 'Proyecto Lubricantes/Flamingo/Desengrasante.webp', name: 'Desengrasante' },
+    { src: 'Proyecto Lubricantes/Flamingo/Desinfectante de Casco.webp', name: 'Desinfectante de Casco' },
+    { src: 'Proyecto Lubricantes/Flamingo/Diamond Pasta Flamingo.webp', name: 'Diamond Pasta' },
+    { src: 'Proyecto Lubricantes/Flamingo/Limpia Neumaticos.webp', name: 'Limpia Neumáticos' },
+    { src: 'Proyecto Lubricantes/Flamingo/Limpiador botellita spray.webp', name: 'Limpiador Spray' },
+    { src: 'Proyecto Lubricantes/Flamingo/Lubricante para Cadenas.webp', name: 'Lubricante Cadenas' },
+    { src: 'Proyecto Lubricantes/Flamingo/Ultra Shine 11.webp', name: 'Ultra Shine' }
   ],
   characters: [
     { src: 'Proyecto Qbit/BRAND BOARD/Personaje Qbit.svg', name: 'Qbit' },
